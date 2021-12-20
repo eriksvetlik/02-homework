@@ -1,11 +1,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 
 :root {
-  --fontcolor: #2d2d2d;
+  --primarycolor: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   font-family: Vollkorn, serif;
+  color: var(--primarycolor);
   line-height: 1.6;
-  color: var(--fontcolor);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.href {
+  color: var(--primarycolor);
+}
+
+.link1:hover {
+  font-weight: bold;
+  color: #f43b86;
+}
+
+.link2:hover {
+  font-weight: bold;
+  color: #f9c80e;
+}
+
+.link3:hover {
+  font-weight: bold;
+  color: #791e94;
+}
+
+.list {
+  list-style: none;
+}
+
+.listitem {
+  float: left;
+  position: relative;
+  padding-left: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.row-child {
+  flex: 1 1;
+}
+
+.row-child:first-child {
+  max-width: 30%;
+}
+
+.sectionpadding {
+  padding: 20px 0px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
