@@ -38,6 +38,11 @@ ul {
   max-width: 95%;
 }
 
+#headshot {
+  width: 75px;
+  border-radius: 50%;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -45,6 +50,17 @@ ul {
 
 .href {
   color: var(--primarycolor);
+}
+
+.img-gray {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 0.25s ease-in-out;
+}
+
+.img-gray:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 .info {
@@ -71,14 +87,6 @@ ul {
   max-width: 75%;
   display: block;
   margin: 25px auto;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  transition: filter 0.25s ease-in-out;
-}
-
-.project-img:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
 }
 
 .row {
