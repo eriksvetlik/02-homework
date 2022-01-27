@@ -83,6 +83,11 @@ ul {
   color: #791e94;
 }
 
+.link4:hover {
+  font-weight: bold;
+  color: #2de2e6;
+}
+
 .project-img {
   max-width: 75%;
   display: block;
