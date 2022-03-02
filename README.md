@@ -10,6 +10,8 @@ The main objective of this homework was to utilize skills we’ve learned recent
 
 I also believe a portfolio should be representative of you, so minimalism was my aim for this project. At first glance, the entire website is simple black and white, however hovering over links and images will produce a variety of colors. There’s always more than just what meets the eye, right?
 
+HTML | CSS
+
 # Screenshot
 
 ![Screenshot of webpage after code updates](./images/homework-readme.png)
